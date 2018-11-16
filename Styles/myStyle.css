@@ -1,0 +1,69 @@
+﻿body {
+    width: 100%;
+    margin: 0 auto;
+    direction:rtl;
+    background-image: url('../images/Untitled-2.gif');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: #243642;
+}
+
+@font-face {
+    font-family: 'VarelaRound-Regular';
+    src: url('../VarelaRound-Regular.ttf') format('truetype');
+}
+
+#container{
+    margin-top:240px;
+}
+
+h1 {
+    text-align:center;
+    margin-right:50px;
+    margin-top:100px;
+    color: #ffffff;
+    font-size: 8vh;
+    font-family: 'VarelaRound-Regular';
+}
+
+h2{
+    text-align:center;
+    font-size:5vh;
+    margin-right:50px;
+}
+
+div {
+    margin-right: 50px;
+    font-family: 'VarelaRound-Regular';
+    color: #ffffff;
+    font-size: 3vh;
+}
+
+#firstP{
+    margin-top: 130px;
+
+}
+
+img{
+    padding-left:10px;
+}
+#pics{
+    text-align:center;
+}
+
+.image{
+    opacity:0.5;
+    
+}
+.image:hover{
+    opacity:1;
+    cursor:pointer;
+}
+
+#feedbackDiv{
+    margin-top:30px;
+    text-align:center;
+    line-height:35px;
+}
+
+
